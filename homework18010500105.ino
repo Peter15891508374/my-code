@@ -1,4 +1,4 @@
-
+#include "Arduino.h"
 #ifndef _MORSE_H
 #define _MORSE_H
 class Morse
@@ -13,9 +13,7 @@ class Morse
     int _pin;
 };
 
-#endif /*_MORSE_H*/#include "Arduino.h"
-
-#include "Morse.h"
+#endif /*_MORSE_H*/
 char MORSE[26][4] = {
   {'.', '-', '*', '*'}, //A
   {'-', '.', '.', '.'}, //B
