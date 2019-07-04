@@ -60,6 +60,8 @@ void left()
   digitalWrite(10,HIGH);
   digitalWrite(9,LOW);
   digitalWrite(8,HIGH);
+  delay(250);
+  digitalWrite(8,LOW);
   
 }
 
@@ -70,6 +72,8 @@ void right()
   digitalWrite(9,HIGH);
   digitalWrite(10,LOW);
   digitalWrite(4,HIGH);
+  delay(250);
+  digitalWrite(4,LOW);
 }
 
 void stop()
